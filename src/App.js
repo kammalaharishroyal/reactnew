@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+// import '../src/memechalangecomponents/styles/meme.css'
 
+ import Contact from './projects/Bts/components/Contact';
+ import About from './projects/Bts/components/About';
+ import logo1 from './projects/Bts/Images/react-logo.png';
+ import Register from './projects/Bts/components/Register';
+ import Explore from './projects/Bts/components/Explore' ;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App1">
+      <Contact/>
+     
     </div>
   );
 }
