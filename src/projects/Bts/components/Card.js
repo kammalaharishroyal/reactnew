@@ -5,7 +5,7 @@ function card(props) {
     console.log("status:",props.status);
     return (
         <div className="card1">
-            {props.status==0&&<div>Available</div>}
+            {props.status===0&&<div>Available</div>}
             <div>
                 
                 <img src={logo1} />
