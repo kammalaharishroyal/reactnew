@@ -9,7 +9,8 @@ import './App.css';
 function App() {
   return (
     <div className="App1">
-      <Contact/>
+      
+    <h1>HArish</h1>
      
     </div>
   );
